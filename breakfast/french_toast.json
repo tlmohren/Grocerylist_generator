@@ -1,0 +1,22 @@
+{"Name": "French toast", 
+"Description": "French toast", 
+"Cooking time": 15, 
+"Servings": 1,  
+"Ingredients": {
+	"Produce":[], 
+	"Dairy":["eggs(2)","milk (1/2 cup)","butter (1/4 stick)"],
+	"Meat":[ ],  
+	"Spices":["cinnamon" ],  
+	"Other":["bread (4 slices)",
+		"powdered sugar" ]
+	},
+"Equipment": ["skillet" ], 
+"Steps": ["whisk eggs, milk, optional vanilla",	
+	"heat butter in pan",
+	"dunk slice of bread in whisked mixture, then powder in cinnamon",
+	 "put slice in pan, don't turn too early" ], 
+"Notes": ["Optional vanilla extract,almond slices" ,
+"[2020/3/31] tried with almond slices, but they were too thick and not very tasty. Try with thin slices next time .",
+"one suggestion had something lemonzesty, that sounds like it might be very tasty too" ]   
+}
+ 

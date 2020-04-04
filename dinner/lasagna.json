@@ -1,0 +1,30 @@
+{"Name": "Lasagna", 
+"Description": "Pork lasagna with diy bechamel sauce, barilla recipe with adjustments ()", 
+"Cooking time": 60, 
+"Servings": 6,  
+"Ingredients": {
+	"Produce":["basil"], 
+	"Dairy":["cheese, grated (1/2 cup?)",
+		"milk (1qt)",
+		"butter (6 tablespoons)"],
+	"Meat":["pork (1lb)"],  
+	"Spices":[
+		"nutmeg (1/4 teaspoon)"  ],  
+	"Other":["Lasagna sheets (10?)",
+		"tomato sauce (24 oz)",
+		"flour (5 tablespoons"]
+	},
+"Equipment": ["13x9 oven dish","sauce pan","frying pan"], 
+"Steps": ["Heat oven to 375",
+	"Bring milk to simmer",
+	"In separate pan melt butter and stir in flour",
+	"stir hot milk into butter-flour mixture",
+	"whisk vigorously and bring to a simmer, cook for 5 min", 
+	"add salt, pepper nutmeg (and cheese?)",
+	"brown pork, season and add tomato sauce",
+	"alternate sauce with lasagna layers, top with cheese",
+	"bake until corners bubbly, 20-30 minutes?"], 
+"Notes": [ ],
+"Link": "https://www.allrecipes.com/recipe/236656/oven-ready-lasagna-with-meat-sauce-and-bechamel/" 
+}
+ 

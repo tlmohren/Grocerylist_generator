@@ -1,0 +1,18 @@
+{"Name": "Meat wrap", 
+"Description": "Stuff in wrap travels well. Lunchmeat can be a day outside of the firdge", 
+"Cooking time": 10, 
+"Servings":3,  
+"Ingredients": {
+	"Produce":["lettuce mixed"], 
+	"Dairy":["cheese slices(12)"],
+	"Meat":["turkey slices(12)"],  
+	"Spices":[ ],  
+	"Other":[ "burritos (10)"]
+	},
+"Equipment": [ ], 
+"Steps": ["" ], 
+"Notes": ["8 wraps for roughly 3 portions" ], 
+"Variations": ["can add avocado, other lucnhmeats"], 
+"Image": "placeholder"
+}
+ 

@@ -1,0 +1,16 @@
+{"Name": "Other groceries", 
+"Description": "", 
+"Cooking time": 0, 
+"Servings": 0,  
+"Ingredients": {
+	"Produce":[], 
+	"Dairy":[ ],
+	"Meat":[ ],  
+	"Spices":[ ],  
+	"Other":[  "rice, brown" ,"miso","beer"]
+	},
+"Equipment": [ ], 
+"Steps": [ ], 
+"Notes": [ ] 
+}
+ 

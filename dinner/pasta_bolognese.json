@@ -1,0 +1,18 @@
+{"Name": "Pasta Bolognese", 
+"Description": "Classic dish best served with lots of spices and good ingredients", 
+"Cooking time": 30, 
+"Servings": 4,  
+"Ingredients": {
+	"Produce":["Basil","garlic (4cl)" ,"mushroom, crimini (10)","onion (1)"], 
+	"Dairy":[ ],
+	"Meat":["pork, ground (1lb)"],  
+	"Spices":["oregano"],  
+	"Other":["Pasta (1lb)", "Tomato sauce (2 cups?)","wine, red", "olive oil"  ]
+	},
+"Equipment": ["big pan","pasta pan" ], 
+"Steps": ["" ], 
+"Notes": [" " ], 
+"Variations": [""], 
+"Image": "placeholder"
+}
+ 

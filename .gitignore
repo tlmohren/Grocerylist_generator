@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+__pycache__/
+test_scripts/
+untried_recipes/
+pictures/

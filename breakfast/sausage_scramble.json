@@ -1,0 +1,18 @@
+{"Name": "Sausage egg scramble ", 
+"Description": " ", 
+"Cooking time": 10, 
+"Servings": 2,  
+"Ingredients": {
+	"Produce":["green onion (2)","Bell pepper (<=1)","Crimini Mushrooms (5)"], 
+	"Dairy":["eggs (2)"],
+	"Meat":["sausage, breakfast (3)"],  
+	"Spices":[ ],  
+	"Other":[  ]
+	},
+"Equipment": ["toaster" ], 
+"Steps": ["" ], 
+"Notes": ["" ], 
+"Variations": [""], 
+"Image": "placeholder"
+}
+ 

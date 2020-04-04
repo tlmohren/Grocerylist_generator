@@ -1,0 +1,18 @@
+{"Name": "Egg scramble ", 
+"Description": " ", 
+"Cooking time": 10, 
+"Servings": 2,  
+"Ingredients": {
+	"Produce":["green onion (4)","tomato (1)"], 
+	"Dairy":["eggs (6)"],
+	"Meat":[],  
+	"Spices":[ ],  
+	"Other":[]
+	},
+"Equipment": ["pan" ], 
+"Steps": ["" ], 
+"Notes": ["" ], 
+"Variations": [""], 
+"Image": "placeholder"
+}
+ 

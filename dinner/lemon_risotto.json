@@ -1,0 +1,24 @@
+{"Name": "Lemon risotto", 
+"Description": "Regular risotto with squeeze of lemon, serve with fish of some kind", 
+"Cooking time": 60, 
+"Servings": 4,  
+"Ingredients": {
+	"Produce":["broccoli (1branch)","lemon (1)","shallots (2)"], 
+	"Dairy":[ ],
+	"Meat":["Salmon (1lb)"],  
+	"Spices":[ ],  
+	"Other":["chicken broth(6 cups)",
+		"wine, white (1/4 cups) ",
+		"Arborio rice (2cups)" ]
+	},
+"Equipment": ["Deep pan", "broth pan"], 
+"Steps": ["heat broth in broth pan",
+	 "brown shallots, rice in deep pan", 
+	"spoon broth into rice slowly",
+	"add white wine, lemon zest",
+	"squeeze lemon to taste,  salt/pepper" ], 
+"Notes": ["" ], 
+"Variations": ["Replace Salmon w shrimp"], 
+"Image": "placeholder"
+}
+ 

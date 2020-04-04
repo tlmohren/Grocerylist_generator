@@ -1,0 +1,18 @@
+{"Name": "Avocado toast", 
+"Description": "simple avocado toast", 
+"Cooking time": 10, 
+"Servings": 2,  
+"Ingredients": {
+	"Produce":["Avocado"], 
+	"Dairy":[],
+	"Meat":[ ],  
+	"Spices":[ ],  
+	"Other":["bread" ]
+	},
+"Equipment": ["toaster" ], 
+"Steps": ["" ], 
+"Notes": ["" ], 
+"Variations": ["can add eggs"], 
+"Image": "placeholder"
+}
+ 

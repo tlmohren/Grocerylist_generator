@@ -1,0 +1,21 @@
+{"Name": "Chicken pesto crepes", 
+"Description": " ", 
+"Cooking time": 10, 
+"Servings": 2,  
+"Ingredients": {
+	"Produce":["spinach leaves",
+		"tomato"], 
+	"Dairy":["eggs (2)","milk (1cup)"],
+	"Meat":["chicken"],  
+	"Spices":[ ],  
+	"Other":["flour"]
+	},
+"Equipment": ["pan" ], 
+"Steps": ["fry up chicken cubes",
+	"mix crepe mix" ,
+	"bake crepes",
+	"fill with chicken pesto mixture"], 
+"Notes": ["" ],  
+"Image": "placeholder"
+}
+ 
