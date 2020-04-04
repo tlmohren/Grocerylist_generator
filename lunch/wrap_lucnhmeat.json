@@ -1,4 +1,4 @@
-{"Name": "Meat wrap", 
+{"Name": "Wrap with lunch meat", 
 "Description": "Stuff in wrap travels well. Lunchmeat can be a day outside of the firdge", 
 "Cooking time": 10, 
 "Servings":3,  
@@ -12,7 +12,6 @@
 "Equipment": [ ], 
 "Steps": ["" ], 
 "Notes": ["8 wraps for roughly 3 portions" ], 
-"Variations": ["can add avocado, other lucnhmeats"], 
-"Image": "placeholder"
+"Variations": ["can add avocado, other lucnhmeats"] 
 }
  
