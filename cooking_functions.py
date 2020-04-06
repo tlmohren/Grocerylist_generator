@@ -67,7 +67,17 @@ def create_weeklyCookbook( recipes, output_file ):
                                 itemize.add_item( item)  
 
                 if recipe_dict.get("Link")  is not None: 
-                    doc.append( hyperlink( recipe_dict['Link'] , recipe_dict['Link']  ) ) 
+
+
+    
+                    if type( recipe_dict["Link"] ) == list:
+                        link0 =  recipe_dict["Link"][0] 
+                    elif type( recipe_dict["Link"] ) == str:
+                        link0 =  recipe_dict["Link"] 
+
+
+
+                    doc.append( hyperlink( link0 , link0  ) ) 
 
     doc.generate_pdf( output_file, clean_tex=True) 
 
