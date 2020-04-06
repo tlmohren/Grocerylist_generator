@@ -1,21 +1,20 @@
 {"Name": "Chicken pesto crepes", 
 "Description": " ", 
-"Cooking time": 10, 
-"Servings": 2,  
+"Cooking time": 20, 
+"Servings": 1,  
 "Ingredients": {
-	"Produce":["spinach leaves",
-		"tomato"], 
-	"Dairy":["eggs (2)","milk (1cup)"],
-	"Meat":["chicken"],  
+	"Produce":["spinach leaves" ], 
+	"Dairy":["eggs (1)","milk (1/2cup)","butter (1tbs)"],
+	"Meat":["chicken (1/4lb)"],  
 	"Spices":[ ],  
-	"Other":["flour"]
+	"Other":["flour(1/4 cup?)"]
 	},
 "Equipment": ["pan" ], 
-"Steps": ["fry up chicken cubes",
-	"mix crepe mix" ,
-	"bake crepes",
-	"fill with chicken pesto mixture"], 
-"Notes": ["" ],  
-"Image": "placeholder"
+"Steps": ["fry up chicken cubes w spinach",
+	"whisk eggs and milk, slowly whisk in flour" ,
+	"add a pinch of salt",
+	"spread butter in pan, bake crepes",
+	"fill with chicken/spinach mixture"], 
+"Notes": ["2020-04-05, mixture was good, added some curry powder" ] 
 }
  

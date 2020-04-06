@@ -73,7 +73,6 @@ def create_weeklyCookbook( recipes, output_file ):
 
  
 def generate_shoppinglist(list_loc, recipes, pantry_loc ): 
-
     file = open( list_loc,"w")  
 
     with open( pantry_loc , 'r') as f:  
@@ -82,7 +81,8 @@ def generate_shoppinglist(list_loc, recipes, pantry_loc ):
     shopping_dict= { 'Produce':[],'Dairy':[],'Meat':[],'Spices':[],'Other':[]}
     meal_list = []
 
-    for recipe_loc in recipes:
+    for recipe_loc in recipes: 
+        # print(recipe_loc)
         with open( recipe_loc , 'r') as f:  
             recipe_dict = json.load(f)   
             for key in shopping_dict.keys():         

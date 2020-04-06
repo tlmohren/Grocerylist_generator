@@ -14,3 +14,10 @@ The script to generate <code> weekly_recipes.pdf</code>  requires <code> pylatex
 
 ## Suggestions on how to use this script  
 For me, I have started logging recipes I've tried in json files. I then select a few recipes every week and set the output folder to my dropbox. This syncs to the dropbox app on my phone, so I can access the recipe and shopping list away from my laptop.
+
+
+## under construction
+* error messages
+* adding new recipes  
+* layout of weekly recipes
+* more robust code

@@ -1,0 +1,20 @@
+{"Name": "Teriyaki chicken", 
+"Description": "Teriyaki DIY sauce over chicken and broccoli, serve with rice.", 
+"Cooking time": 30, 
+"Servings": 4,  
+"Ingredients": {
+	"Produce":["Broccoli (2stalks)","Green cabbage (half)","ginger"], 
+	"Dairy":[],
+	"Meat":["chicken thighs (4 pieces)"],  
+	"Spices":[ ],  
+	"Other":["sesame oil","brown rice(1cup)","soy sauce (1/4cup)","sugar(2tbs?)" ]
+	},
+
+"Equipment": ["Large pan" ], 
+"Steps": ["Start rice", 
+	"Mix soy, ginger, garlic, sesame, sake,sugar, 1 cup of water",  
+	"Lay chicken in pan, marinate in teriyaki sauce", 
+	"high heat to thicken sauce (5 min?) ",  
+	"Add vegetables, have on medium/high heat for 6 minutes (lid on?)" ], 
+"Notes": ["Used weird amino acid replacement, still, was good [2020/03/24]" ] 
+}

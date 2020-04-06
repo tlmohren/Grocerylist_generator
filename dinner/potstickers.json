@@ -1,0 +1,25 @@
+{"Name": "Potstickers", 
+"Description": "pork/cabbage potstickers, serve with rice", 
+"Cooking time": 60, 
+"Servings": 3,  
+"Ingredients": {
+	"Produce":["green cabbage (half)","garlic (2+cl)","green onion (2)","ginger (1+tbs)"], 
+	"Dairy":[],
+	"Meat":["ground pork (1lb)"],  
+	"Spices":[ ],  
+	"Other":["sesame oil (2 teaspons)","brown rice(1cup)","soy sauce (2 tbs)","sriratcha (1 teaspoon)" ,
+	"won ton wrappers (36)"]
+	},
+"Equipment": ["Large pan" ], 
+"Steps": ["shop cabbage, garlic, green onion finely",
+	"combine everything in large bowl, knead with hands",
+	"assemble in hand, wet contact area with water",
+	"make folds to stick, set down hard so they stand upright",
+	"add 8-12 potstickers to pan at same time, flip on side after 3 minutes",
+	"flip to last side, serve immediately"], 
+"Notes": ["2020-03-21, roughly this recipe https://damndelicious.net/2014/03/01/potstickers/",
+	"they were great put pretty meaty. I also had 10-15 wrappers left",
+	"I didn't add any mushrooms but next time I would put in more stuff",
+	"maybe add more cabbae? [2020/03/21]" ] 
+}
+ 

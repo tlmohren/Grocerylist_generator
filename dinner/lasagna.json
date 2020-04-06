@@ -3,16 +3,19 @@
 "Cooking time": 60, 
 "Servings": 6,  
 "Ingredients": {
-	"Produce":["basil"], 
+	"Produce":["mushroom (10)",
+		"onion (1)",
+		"garlic (4cl)"], 
 	"Dairy":["cheese, grated (1/2 cup?)",
 		"milk (1qt)",
 		"butter (6 tablespoons)"],
-	"Meat":["pork (1lb)"],  
+	"Meat":["chorizo (1lb)"],  
 	"Spices":[
 		"nutmeg (1/4 teaspoon)"  ],  
 	"Other":["Lasagna sheets (10?)",
 		"tomato sauce (24 oz)",
-		"flour (5 tablespoons"]
+		"flour (5 tablespoons",
+		"pesto (optional)"]
 	},
 "Equipment": ["13x9 oven dish","sauce pan","frying pan"], 
 "Steps": ["Heat oven to 375",
@@ -21,7 +24,7 @@
 	"stir hot milk into butter-flour mixture",
 	"whisk vigorously and bring to a simmer, cook for 5 min", 
 	"add salt, pepper nutmeg (and cheese?)",
-	"brown pork, season and add tomato sauce",
+	"brown pork, onion, garlic, mushroom season and add tomato sauce",
 	"alternate sauce with lasagna layers, top with cheese",
 	"bake until corners bubbly, 20-30 minutes?"], 
 "Notes": [ ],

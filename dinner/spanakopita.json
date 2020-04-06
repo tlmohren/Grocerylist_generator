@@ -1,0 +1,25 @@
+{"Name": "Spanakopita", 
+"Description": " ", 
+"Cooking time": 20, 
+"Servings": 1,  
+"Ingredients": {
+	"Produce":["spinach (1lb)", "onion (1/2)","green onion (2)","garlic (5cl)","dill"], 
+	"Dairy":["butter (1 stick)","feta (1/2lb)","parmezan cheese (4oz)","eggs (2)"],
+	"Meat":[ ],  
+	"Spices":["nutmeg(1/2 tsp)"],  
+	"Other":["phyllo sheets (10x(17by12in)","olive oil"]
+	},
+"Equipment": ["pan" ], 
+"Steps": ["preheat oven to 375",
+	"ignore below, do follow youtube along!!!",
+	"saute onion and green onion in pan for 5 minutes",
+	"add garlic, oregano, red pepper flakes, salt and pepper",
+	"mixed with thawed out spinach,feta, nutmeg",
+	"cut phyllo to right size",
+	"assemble spanakopita",
+	"bake until golden (roughly 20 minutes)"
+	], 
+"Notes": ["https://www.youtube.com/watch?v=uO39xR64XC4" ],
+"Link": "https://www.delish.com/cooking/recipe-ideas/a26471474/spanakopita-spinach-pie-recipe/"
+}
+  
