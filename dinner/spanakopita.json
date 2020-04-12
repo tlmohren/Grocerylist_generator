@@ -1,9 +1,9 @@
 {"Name": "Spanakopita", 
 "Description": " ", 
-"Cooking time": 20, 
-"Servings": 1,  
+"Cooking time": 120, 
+"Servings": 5,  
 "Ingredients": {
-	"Produce":["spinach (1lb)", "onion (1/2)","green onion (2)","garlic (5cl)","dill"], 
+	"Produce":["spinach (1lb)", "onion (1/2)","green onion (2)","garlic (5cl)" ], 
 	"Dairy":["butter (1 stick)","feta (1/2lb)","parmezan cheese (4oz)","eggs (2)"],
 	"Meat":[ ],  
 	"Spices":["nutmeg(1/2 tsp)"],  
@@ -19,7 +19,8 @@
 	"assemble spanakopita",
 	"bake until golden (roughly 20 minutes)"
 	], 
-"Notes": ["https://www.youtube.com/watch?v=uO39xR64XC4" ],
-"Link": "https://www.delish.com/cooking/recipe-ideas/a26471474/spanakopita-spinach-pie-recipe/"
+"Notes": ["2020-04-08 dill was too much, otherwise very tasty and good snacks"],
+"Link": ["https://www.delish.com/cooking/recipe-ideas/a26471474/spanakopita-spinach-pie-recipe/",
+"https://www.youtube.com/watch?v=uO39xR64XC4"]
 }
   

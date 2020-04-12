@@ -3,7 +3,7 @@
 "Cooking time": 60, 
 "Servings": 3,  
 "Ingredients": {
-	"Produce":["green cabbage (half)","garlic (2+cl)","green onion (2)","ginger (1+tbs)"], 
+	"Produce":["green cabbage (1/4)","garlic (2+cl)","green onion (2)","ginger (1+tbs)","mushrooms(5)"], 
 	"Dairy":[],
 	"Meat":["ground pork (1lb)"],  
 	"Spices":[ ],  
@@ -15,11 +15,12 @@
 	"combine everything in large bowl, knead with hands",
 	"assemble in hand, wet contact area with water",
 	"make folds to stick, set down hard so they stand upright",
-	"add 8-12 potstickers to pan at same time, flip on side after 3 minutes",
+	"add 8-12 potstickers to pan at same time, have them stand up straight initially, flip on side after 3 minutes",
 	"flip to last side, serve immediately"], 
 "Notes": ["2020-03-21, roughly this recipe https://damndelicious.net/2014/03/01/potstickers/",
 	"they were great put pretty meaty. I also had 10-15 wrappers left",
 	"I didn't add any mushrooms but next time I would put in more stuff",
-	"maybe add more cabbae? [2020/03/21]" ] 
+	"maybe add more cabbage? [2020/03/21]",
+	"2020-04-11 added more cabbage and mushrooms, very tasty" ] 
 }
  

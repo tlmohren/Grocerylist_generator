@@ -1,13 +1,13 @@
 {"Name": "Teriyaki Salmon", 
 "Description": "Teriyaki DIY sauce over salmon and broccoli, serve with rice" , 
-"Cooking time": 30, 
-"Servings": 3,  
+"Cooking time": 40, 
+"Servings": 4,  
 "Ingredients": {
-	"Produce":["Broccoli (2stalks)","garlic(4cl)","ginger"], 
+	"Produce":["Broccoli (2stalks)","garlic(4cl)","ginger","Cabbage(optional)"], 
 	"Dairy":[],
 	"Meat":["salmon (1lb)"],  
 	"Spices":[ ],  
-	"Other":["sesame oil","brown rice(1cup)","soy sauce (1/4cup)","sugar(2tbs?)" ]
+	"Other":["sesame oil","brown rice(1cup)","soy sauce (1/3cup)","sugar(2tbs?)" ]
 	},
 "Equipment": ["rice cooker","Large pan"], 
 "Steps": [ "Start rice", 
@@ -16,6 +16,7 @@
 	"Lay salmon in pan, surround by broccoli, drip teriyaki sauce over it", 
 	"have on medium/high heat for 6 minutes (lid on?)", 
 	"flip salmon and keep on stove until salmon is done"], 
-"Notes": ["sesame oil would be good, can reduce water amount for quicker stir? With fresh garlic and ginger,used honey (no sugar), added miso also, but didn't do much I think. Drizzled over salmon and broccoli, ate with brown rice (tasty!) overall success. [2020/03/21]","Works with chicken too" ] 
+"Notes": ["sesame oil would be good, can reduce water amount for quicker stir? With fresh garlic and ginger,used honey (no sugar), added miso also, but didn't do much I think. Drizzled over salmon and broccoli, ate with brown rice (tasty!) overall success. [2020/03/21]","Works with chicken too" ,
+"2020-04-10 missed some taste and salmon overcooked. Maybe vegetables first and then dump them out? "] 
 }
  
