@@ -1,0 +1,24 @@
+{"Name": "Spanakopita easy", 
+"Description": "Use puff pastry and frozen spinach", 
+"Cooking time": 45, 
+"Servings": 5,  
+"Ingredients": {
+	"Produce":["onion (1/2)","green onion (2)","garlic (5cl)" ], 
+	"Dairy":[ "feta (1/2lb)","parmezan cheese (4oz)","eggs (2)"],
+	"Meat":[ ],  
+	"Spices":["nutmeg(1/2 tsp)"],  
+	"Other":["frozen puff pastry(2 sheets)","frozen spinace (2x10oz)"]
+	},
+"Equipment": ["pan" ], 
+"Steps": ["preheat oven to 375", 
+	"saute onion and green onion in pan for 5 minutes",
+	"add garlic",
+	"mixed with thawed out spinach,feta, nutmeg",
+	"Mix feta and egg, add to spinach once cold",
+	"cut dough to right size",
+	"assemble spanakopita",
+	"bake until golden (roughly 20 minutes)"
+	], 
+"Notes": ["2020-04-25 didn't have frozen, regular spinach was too large. Need to roll out puff pastry and divide into more triangles. Goal should be 18"]
+}
+  

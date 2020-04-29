@@ -1,0 +1,31 @@
+{
+  "Name": "Test recipe",
+  "Cooking time": 30,
+  "Servings": 5,
+  "Description": "blabla",
+  "Ingredients": {
+    "Produce": [
+      "beets (1)"
+    ],
+    "Dairy": [
+      "milk(1cup)"
+    ],
+    "Meat": [
+      "ham(1)"
+    ],
+    "Spices": [
+      "cumin"
+    ],
+    "Other": [
+      "flour(1cup)"
+    ]
+  },
+  "Steps": [
+    "step one",
+    "step 2",
+    "step3"
+  ],
+  "Notes": [
+    "blabla1"
+  ]
+}

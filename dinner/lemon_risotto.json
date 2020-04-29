@@ -3,7 +3,7 @@
 "Cooking time": 60, 
 "Servings": 4,  
 "Ingredients": {
-	"Produce":["broccoli (1branch)","lemon (1)","shallots (2)"], 
+	"Produce":[ "lemon (1)","shallots (2)"], 
 	"Dairy":[ ],
 	"Meat":["Salmon (1lb)"],  
 	"Spices":[ ],  
@@ -12,11 +12,13 @@
 		"Arborio rice (2cups)" ]
 	},
 "Equipment": ["Deep pan", "broth pan"], 
-"Steps": ["heat broth in broth pan",
-	 "brown shallots, rice in deep pan", 
-	"spoon broth into rice slowly",
-	"add white wine, lemon zest",
-	"squeeze lemon to taste,  salt/pepper" ], 
+"Steps": ["Bring broth to a boil in sauce pan", 
+"Brown shallots with rice (and some oil) in deep pan (+- 3 min on high heat)",
+"Ladle broth into to deep pan until rice is just about under water and stir, turn heat to simmer",
+"Add white wine and lemon zest (1 lemon's worth of it), keep stirring",
+"When broth is absorbed by rice, ladle in more broth (every few minutes) and stir until you're out of broth",
+"(Optional.) Cook fish in separate pan",
+" Add salt and pepper, squeeze in lemon to taste (in deep pan or on your plate)"], 
 "Notes": ["" ], 
 "Variations": ["Replace Salmon w shrimp"], 
 "Image": "placeholder"

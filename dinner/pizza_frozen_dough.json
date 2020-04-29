@@ -5,9 +5,9 @@
 "Ingredients": {
 	"Produce":[], 
 	"Dairy":[ ],
-	"Meat":["prosciuto"],  
+	"Meat":["pizza meat"],  
 	"Spices":[ ],  
-	"Other":["frozen pizza dough", "pizza sauce","sun-dried tomatoes" ]
+	"Other":["frozen pizza dough", "pizza sauce"  ]
 	},
 "Equipment": ["Oven" ], 
 "Steps": ["thaw out dough, 3 hours outside fridge or 45 min in warm water",

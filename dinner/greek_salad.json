@@ -7,18 +7,15 @@
 		"cucumber (1)",
 		"red bell pepper",
 		"yellow bell pepper",
-		"kalamata olives (1/2 cup)",
-		"garlic (2cl)"], 
-	"Dairy":["feta cheese (1/2 lb)"],
+		"kalamata olives (1/2 cup)"
+		], 
+	"Dairy":["feta (1/2 lb)"],
 	"Meat":[ ],  
-	"Spices":["dijon mustard (1/2tsp)",
-		"dried oregano (1tsp)"],  
-	"Other":["red wine vinegar",
-		"olive oil"]
+	"Spices":[],  
+	"Other":[ "olive oil"]
 	},
 "Equipment": [""], 
-"Steps": [ "chop up vegetables",
-	 "make dressing"], 
+"Steps": [  ], 
 "Notes": [ "good with spinakopita" ],
 "Link": "https://www.foodnetwork.com/recipes/ina-garten/greek-salad-recipe-1948517" 
 }

@@ -1,0 +1,17 @@
+{"Name": "Cold tea", 
+"Description": " ", 
+"Cooking time": 5, 
+"Servings": 10,  
+"Ingredients": {
+	"Produce":["Lemon","mint"], 
+	"Dairy":[],
+	"Meat":[ ],  
+	"Spices":[ ],  
+	"Other":["Cold Tea bags, high quality" ]
+	},
+"Equipment": [" " ], 
+"Steps": ["" ], 
+"Notes": ["" ], 
+"Variations": [" "]
+}
+ 

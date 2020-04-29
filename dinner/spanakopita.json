@@ -3,7 +3,7 @@
 "Cooking time": 120, 
 "Servings": 5,  
 "Ingredients": {
-	"Produce":["spinach (1lb)", "onion (1/2)","green onion (2)","garlic (5cl)" ], 
+	"Produce":["spinach (2lb)", "onion (1/2)","green onion (2)","garlic (5cl)" ], 
 	"Dairy":["butter (1 stick)","feta (1/2lb)","parmezan cheese (4oz)","eggs (2)"],
 	"Meat":[ ],  
 	"Spices":["nutmeg(1/2 tsp)"],  
@@ -11,15 +11,18 @@
 	},
 "Equipment": ["pan" ], 
 "Steps": ["preheat oven to 375",
-	"ignore below, do follow youtube along!!!",
-	"saute onion and green onion in pan for 5 minutes",
-	"add garlic, oregano, red pepper flakes, salt and pepper",
-	"mixed with thawed out spinach,feta, nutmeg",
-	"cut phyllo to right size",
-	"assemble spanakopita",
-	"bake until golden (roughly 20 minutes)"
+	" In a large sauce pan, heat about 2-3 Oz. Olive oil over medium heat.",
+"Add the onions and garlic and saute for 2-3 minutes.",
+"Add the chopped spinach and cook it all the way down. About 3 minutes.",
+"Add the scallions and incorporate. Remove from heat and allow to cool completely.",
+"In a separate bowl, Combine the Feta and Parmesan with the eggs.",
+"Combine the cheese mixture with the cooled spinach mixture. Season lightly with salt and pepper.",
+"Place 1 sheet of dough on a dry clean surface and brush with melted butter lightly. Place another sheet on top and apply butter. Add one more sheet on top and repeat with butter. Do not soak the dough however.",
+"Cut the dough into four long strips vertically.",
+"Place a small amount of mixture at the bottom of each strip and begin folding into triangle form. Please see video for this!",
+"On a lined baking sheet arrange the triangles evenly spaced apart. Brush with additional butter and bake at 350 degrees for 25 minutes. "
 	], 
-"Notes": ["2020-04-08 dill was too much, otherwise very tasty and good snacks"],
+"Notes": ["2020-04-08 dill was too much, otherwise very tasty and good snacks","2020-04-25 didn't chop spinach, it was too stringy and watery"],
 "Link": ["https://www.delish.com/cooking/recipe-ideas/a26471474/spanakopita-spinach-pie-recipe/",
 "https://www.youtube.com/watch?v=uO39xR64XC4"]
 }

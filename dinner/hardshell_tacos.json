@@ -1,0 +1,16 @@
+{"Name": "Hardhsell tacos", 
+"Description": "" , 
+"Cooking time": 15, 
+"Servings": 6,  
+"Ingredients": {
+	"Produce":["Avocado","Tomato","lettuce", "cilantro","Green onion (3)","garlic (2cl)"], 
+	"Dairy":["grated cheese"],
+	"Meat":["Chorizo (1lb)"],  
+	"Spices":["cumin","chili spices"],  
+	"Other":["hardshell tacos (10)"]
+	},
+"Equipment": [], 
+"Steps": [  ], 
+"Notes": [   ]
+}
+ 
