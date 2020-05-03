@@ -1,0 +1,26 @@
+{
+  "Name": "Kouign Amman",
+  "Cooking time": "60",
+  "Servings": "2",
+  "Description": "",
+  "Ingredients": {
+    "Produce": [],
+    "Dairy": [
+      "butter (2.5sticks )"
+    ],
+    "Meat": [],
+    "Spices": [],
+    "Other": [
+      "bread flower (2 1/2)",
+      "sugar",
+      "active dry yeast"
+    ]
+  },
+  "Steps": [
+    "Use croissant laminated dough. ",
+    "Butter muffin tin and roll in sugar. ",
+    "Roll sugar into dough. ",
+    "Fold squares into crown, bake 25 minutes. "
+  ],
+  "Notes": []
+}

@@ -1,22 +1,31 @@
-{"Name": "Greek salad", 
-"Description": "" , 
-"Cooking time": 15, 
-"Servings": 6,  
-"Ingredients": {
-	"Produce":["roma tomatoes (2)",
-		"cucumber (1)",
-		"red bell pepper",
-		"yellow bell pepper",
-		"kalamata olives (1/2 cup)"
-		], 
-	"Dairy":["feta (1/2 lb)"],
-	"Meat":[ ],  
-	"Spices":[],  
-	"Other":[ "olive oil"]
-	},
-"Equipment": [""], 
-"Steps": [  ], 
-"Notes": [ "good with spinakopita" ],
-"Link": "https://www.foodnetwork.com/recipes/ina-garten/greek-salad-recipe-1948517" 
+{
+  "Name": "Greek salad",
+  "Cooking time": 15,
+  "Servings": 15,
+  "Description": "",
+  "Ingredients": {
+    "Produce": [
+      "roma tomatoes (2)",
+      "cucumber (1)",
+      "red bell pepper",
+      "yellow bell pepper",
+      "kalamata olives (1/2 cup)"
+    ],
+    "Dairy": [
+      "feta (1/2 lb)"
+    ],
+    "Meat": [
+      ""
+    ],
+    "Spices": [
+      ""
+    ],
+    "Other": [
+      "olive oil"
+    ]
+  },
+  "Steps": [],
+  "Notes": [
+    "good with spinakopita"
+  ]
 }
- 

@@ -39,21 +39,15 @@ def create_weeklyCookbook( recipes, output_file ):
         with open( recipe_loc , 'r') as f:
             recipe_dict = json.load(f)   
 
-        recip_headline = recipe_dict['Name'] + '        (' +  str(recipe_dict['Cooking time']) + ' min)' 
+        recip_headline = recipe_dict['Name'] + '        (' +  str(recipe_dict['Cooking time'])  
         with doc.create(Subsection( recip_headline ,numbering=False  )):   
   
             with doc.create(MiniPage(width=r"0.3\textwidth")):
                 with doc.create(Itemize( options=list_options) ) as itemize: 
                     for item in recipe_dict['Ingredients'].keys(): 
-                        if len( recipe_dict['Ingredients'][item] ) > 0: 
-    #                         itemize.add_item( recipe_dict['Ingredients'][item] )  
+                        if len( recipe_dict['Ingredients'][item] ) > 0:  
                             for subitem in recipe_dict['Ingredients'][item]:
-                                itemize.add_item(subitem) 
-
-                if  len( recipe_dict['Equipment'] ) > 0: 
-                    with doc.create(Itemize( options=list_options) ) as itemize: 
-                        for item in recipe_dict['Equipment'] : 
-                            itemize.add_item(  item )   
+                                itemize.add_item(subitem)  
 
             with doc.create(MiniPage(width=r"0.8\textwidth")):
                 with doc.create( Enumerate(options=list_options) ) as enum:   
@@ -67,16 +61,11 @@ def create_weeklyCookbook( recipes, output_file ):
                                 itemize.add_item( item)  
 
                 if recipe_dict.get("Link")  is not None: 
-
-
-    
+ 
                     if type( recipe_dict["Link"] ) == list:
                         link0 =  recipe_dict["Link"][0] 
                     elif type( recipe_dict["Link"] ) == str:
-                        link0 =  recipe_dict["Link"] 
-
-
-
+                        link0 =  recipe_dict["Link"]  
                     doc.append( hyperlink( link0 , link0  ) ) 
 
     doc.generate_pdf( output_file, clean_tex=True) 

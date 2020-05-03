@@ -1,16 +1,26 @@
-{"Name": "Mushroom egg scramble ", 
-"Description": " ", 
-"Cooking time": 10, 
-"Servings": 2,  
-"Ingredients": {
-	"Produce":["green onion (2)","Bell pepper (<=1)","Crimini Mushrooms (5)"], 
-	"Dairy":["eggs (2)"],
-	"Meat":["sausage, breakfast (optional)"],  
-	"Spices":[ ],  
-	"Other":["bread (optional"  ]
-	},
-"Equipment": ["toaster" ], 
-"Steps": ["" ], 
-"Notes": ["" ] 
+{
+  "Name": "Mushroom egg scramble ",
+  "Cooking time": "10",
+  "Servings": "2",
+  "Description": " ",
+  "Ingredients": {
+    "Produce": [
+      "green onion (2)",
+      "Bell pepper (<=1)",
+      "Crimini Mushrooms (5)"
+    ],
+    "Dairy": [
+      "eggs (2)"
+    ],
+    "Meat": [
+      "sausage",
+      "breakfast (optional)"
+    ],
+    "Spices": [],
+    "Other": [
+      "bread (optional"
+    ]
+  },
+  "Steps": [],
+  "Notes": []
 }
- 

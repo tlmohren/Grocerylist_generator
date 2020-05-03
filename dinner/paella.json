@@ -1,0 +1,19 @@
+{"Name": "Paella", 
+"Description": "" , 
+"Cooking time": 15, 
+"Servings": 6,  
+"Ingredients": {
+	"Produce":["red bell pepper(1)","garlic (3cl)","onion (1)"], 
+	"Dairy":[ ],
+	"Meat":["shrimp (9oz)","chicken (9oz)","spanish chorizo or andouille sausage(8oz, opptional)" ],  
+	"Spices":["Saffron","paprika" ],  
+	"Other":[ "chicken stock (2.25 cups)", "frozen peas","arborio rice (1cup)","cubed tomato (1can)"]
+	},
+"Equipment": ["strainer"], 
+"Steps": [  ], 
+"Notes": [   ],
+"Link": ["https://www.youtube.com/watch?v=tiJMJznAi0Y",
+	"https://www.youtube.com/watch?v=Bu01ywrsw6k",
+	"https://www.youtube.com/watch?v=jThoJAwyTXQ"]
+}
+ 

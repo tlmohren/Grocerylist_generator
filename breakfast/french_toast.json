@@ -1,21 +1,34 @@
-{"Name": "French toast", 
-"Description": "French toast", 
-"Cooking time": 15, 
-"Servings": 1,  
-"Ingredients": {
-	"Produce":[], 
-	"Dairy":["eggs(2)","milk (1/2 cup)","butter (1/4 stick)"],
-	"Meat":[ ],  
-	"Spices":["cinnamon","cardamom"],  
-	"Other":["bread (4 slices)",
-		"powdered sugar" ]
-	},
-"Equipment": ["skillet" ], 
-"Steps": ["whisk eggs, milk, pinch of salt, optional vanilla, optional 1/2 tsp cardamom",	
-	"heat butter in pan",
-	"dunk slice of bread in whisked mixture, then powder in cinnamon",
-	 "put slice in pan, don't turn too early" ], 
-"Notes": [ "[2020/3/31] tried with almond slices, but they were too thick and not very tasty. Try with thin slices next time.","one suggestion had something lemonzesty, that sounds like it might be very tasty too",
-"2020/04/25, for 3 slices of bread, 1 egg. Add cardamom and salt. Didn't have powdered sugar so I added 1 tbs sugar to mix."  ]   
+{
+  "Name": "French toast",
+  "Cooking time": "15",
+  "Servings": "1",
+  "Description": "French toast",
+  "Ingredients": {
+    "Produce": [],
+    "Dairy": [
+      "eggs(2)",
+      "milk (1/2 cup)",
+      "butter (1/4 stick)"
+    ],
+    "Meat": [],
+    "Spices": [
+      "cinnamon",
+      "cardamom"
+    ],
+    "Other": [
+      "bread (4 slices)",
+      "powdered sugar"
+    ]
+  },
+  "Steps": [
+    "whisk eggs, milk, pinch of salt, optional vanilla, optional 1/2 tsp cardamom",
+    "heat butter in pan",
+    "dunk slice of bread in whisked mixture, then powder in cinnamon",
+    "put slice in pan, don't turn too early"
+  ],
+  "Notes": [
+    "[2020/3/31] tried with almond slices, but they were too thick and not very tasty. Try with thin slices next time.",
+    "one suggestion had something lemonzesty, that sounds like it might be very tasty too",
+    "2020/04/25, for 3 slices of bread, 1 egg. Add cardamom and salt. Didn't have powdered sugar so I added 1 tbs sugar to mix."
+  ]
 }
- 

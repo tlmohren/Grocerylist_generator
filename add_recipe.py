@@ -1,6 +1,7 @@
 from PyQt5 import QtWidgets, uic
 from PyQt5.QtWidgets import QMessageBox, QFileDialog
 from PyQt5.QtCore import QUrl
+from PyQt5.QtGui import QFont
 import sys 
 import json
 
@@ -9,26 +10,33 @@ class RecipeEditor(QtWidgets.QMainWindow):
         super(RecipeEditor, self).__init__()
         uic.loadUi("add_recipe_gui.ui",self)  
 
+        self.actionNew.triggered.connect(self.fileNew)
         self.actionOpen.triggered.connect(self.fileOpen)
         self.actionSave.triggered.connect(self.fileSave)
         self.actionExit.triggered.connect(self.fileExit)
- 
+        self.fileName_known = ""
     def convert_list_to_str( list_str):
-        out_str = ''
-        for item in list_str:
-            if out_str=='':
-                out_str=item
-            else:
-                out_str = out_str+', ' + item
+        if list_str:
+            out_str = ''
+            for item in list_str:
+                if out_str=='':
+                    out_str=item
+                else:
+                    out_str = out_str+', ' + item
+        else: 
+            out_str = None
         return out_str
 
     def convert_list_to_str_lines( list_str):
-        out_str = ''
-        for item in list_str:
-            if out_str=='':
-                out_str=item
-            else:
-                out_str = out_str+'\n' + item
+        if list_str:
+            out_str = ''
+            for item in list_str:
+                if out_str=='':
+                    out_str=item
+                else:
+                    out_str = out_str+'\n' + item
+        else: 
+            out_str = None
         return out_str
 
     def line_text_to_string_list(text_in):
@@ -38,22 +46,43 @@ class RecipeEditor(QtWidgets.QMainWindow):
         return list_steps
 
     def word_text_to_string_list(text_in):
-        list_steps =[]
-        for word in text_in.split(','):
-            list_steps.append(word.strip()) 
+        if text_in:
+            list_steps =[]
+            for word in text_in.split(','):
+                list_steps.append(word.strip()) 
+        else:
+            list_steps = []
         return list_steps   
 
-    def fileOpen(self): 
+    def fileNew(self):   
 
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog   # use Qt style if not uncommented 
+        self.lineEditRecipe.setText( "" )
+        self.lineEditCookingTime.setText(""  )
+        self.lineEditServings.setText( "") 
+        self.textEditDescription.setText(""  ) 
+
+        self.textEditDairy.setText( "") 
+        self.textEditMeat.setText( "") 
+        self.textEditProduce.setText("" ) 
+        self.textEditSpices.setText("") 
+        self.textEditOther.setText( "") 
+
+        self.textEditSteps.setText(  "" ) 
+        self.textEditNotes.setText( ""  ) 
+        self.fileName_known = ""
+
+
+    def fileOpen(self):  
+        options = QFileDialog.Options(QFileDialog.Detail  ) 
  
+        self.fileName_open, _ = QFileDialog.getOpenFileName(self,
+            "QFileDialog.getOpenFileName()","", "All files (*);;Json Files (*.json)", options = options) 
+       
+        print( 'opened: ' + self.fileName_open)
+        self.fileName_known = self.fileName_open
 
-        fileName, _ = QFileDialog.getOpenFileName(self,
-            "QFileDialog.getOpenFileName()","", "Json Files (*.json)", options = options) 
-
-        if fileName:  
-            with open(fileName) as json_file:
+        if self.fileName_open:  
+            with open(self.fileName_open) as json_file:
                 data = json.load(json_file)
 
             self.lineEditRecipe.setText( data.get('Name','NA' ) )
@@ -64,11 +93,11 @@ class RecipeEditor(QtWidgets.QMainWindow):
             ingredient_dict = data.get('Ingredients','NA')
 
             if ingredient_dict == 'NA':
-                dairy_list = ''
-                meat_list = ''
-                spices_list = ''
-                produce_list = ''
-                other_list = '' 
+                dairy_list = None
+                meat_list =None
+                spices_list =None
+                produce_list = None
+                other_list =None
             else:
                 dairy_list = RecipeEditor.convert_list_to_str( ingredient_dict.get('Dairy','NA') )
                 other_list = RecipeEditor.convert_list_to_str( ingredient_dict.get('Other','NA') )
@@ -84,37 +113,63 @@ class RecipeEditor(QtWidgets.QMainWindow):
 
             self.textEditSteps.setText( RecipeEditor.convert_list_to_str_lines(data['Steps']) ) 
             self.textEditNotes.setText( RecipeEditor.convert_list_to_str_lines(data['Notes']) ) 
- 
-    def fileSave(self): 
- 
+     
+    def fileSave(self):  
+        if self.fileName_known == "":
+            options = QFileDialog.Options(QFileDialog.Detail) 
+            fileName, _ = QFileDialog.getSaveFileName(self,
+                "QFileDialog.getSaveFileName()",self.fileName_known, "Json Files (*.json)", options = options) 
 
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog   # use Qt style if not uncommented
-        fileName, _ = QFileDialog.getSaveFileName(self,
-            "QFileDialog.getSaveFileName()","", "Json Files (*.json)", options = options) 
+            self.fileName_known = fileName
 
-        if fileName: 
+            if fileName: 
+                recipe_dict={}
+           
+                recipe_dict['Name'] = self.lineEditRecipe.text() 
+                recipe_dict['Cooking time'] = self.lineEditCookingTime.text() 
+                recipe_dict['Servings'] = self.lineEditServings.text() 
+                recipe_dict['Description'] = self.textEditDescription.toPlainText() 
+       
+                ingredients_dict = {} 
+                ingredients_dict['Produce'] = RecipeEditor.word_text_to_string_list( self.textEditProduce.toPlainText()  )
+                ingredients_dict['Dairy'] = RecipeEditor.word_text_to_string_list( self.textEditDairy.toPlainText()  )
+                ingredients_dict['Meat'] = RecipeEditor.word_text_to_string_list( self.textEditMeat.toPlainText()  )
+                ingredients_dict['Spices'] = RecipeEditor.word_text_to_string_list( self.textEditSpices.toPlainText()  )
+                ingredients_dict['Other'] = RecipeEditor.word_text_to_string_list( self.textEditOther.toPlainText()  )
+
+                recipe_dict['Ingredients'] = ingredients_dict
+       
+                recipe_dict['Steps'] = RecipeEditor.line_text_to_string_list( self.textEditSteps.toPlainText()  )
+                recipe_dict['Notes'] = RecipeEditor.line_text_to_string_list( self.textEditNotes.toPlainText()  )
+
+                with open(fileName , 'w') as outfile:
+                    json.dump(recipe_dict , outfile, indent=2)
+                print('Saved: ' + fileName)
+
+        else:  
             recipe_dict={}
        
             recipe_dict['Name'] = self.lineEditRecipe.text() 
-            recipe_dict['Cooking time'] = int(self.lineEditCookingTime.text() ) 
-            recipe_dict['Servings'] = int(self.lineEditServings.text() )
+            recipe_dict['Cooking time'] = self.lineEditCookingTime.text() 
+            recipe_dict['Servings'] = self.lineEditServings.text()  
+ 
             recipe_dict['Description'] = self.textEditDescription.toPlainText() 
-   
+    
             ingredients_dict = {} 
             ingredients_dict['Produce'] = RecipeEditor.word_text_to_string_list( self.textEditProduce.toPlainText()  )
             ingredients_dict['Dairy'] = RecipeEditor.word_text_to_string_list( self.textEditDairy.toPlainText()  )
             ingredients_dict['Meat'] = RecipeEditor.word_text_to_string_list( self.textEditMeat.toPlainText()  )
             ingredients_dict['Spices'] = RecipeEditor.word_text_to_string_list( self.textEditSpices.toPlainText()  )
             ingredients_dict['Other'] = RecipeEditor.word_text_to_string_list( self.textEditOther.toPlainText()  )
-
+ 
             recipe_dict['Ingredients'] = ingredients_dict
    
             recipe_dict['Steps'] = RecipeEditor.line_text_to_string_list( self.textEditSteps.toPlainText()  )
             recipe_dict['Notes'] = RecipeEditor.line_text_to_string_list( self.textEditNotes.toPlainText()  )
 
-            with open(fileName+'.json', 'w') as outfile:
+            with open(self.fileName_known, 'w') as outfile:
                 json.dump(recipe_dict , outfile, indent=2)
+            print('Saved: ' + self.fileName_known)
 
     def fileExit(self):
         QtWidgets.QApplication.quit()

@@ -1,34 +1,51 @@
-{"Name": "Indian Chicken Curry", 
-"Description": "  ", 
-"Cooking time": 60, 
-"Servings": 4,  
-"Ingredients": {
-	"Produce":["onion (1x)",
-		"garlic (6cloves)" ], 
-	"Dairy":["yoghurt (1 cup)"],
-	"Meat":["chicken boneless (2lb)"],  
-	"Spices":["curry powder (1.5tbs)",
-		"cumin (1tsp)",
-		"turmeric (.5tsp)",
-		"coriander (1sp)",
-		"cayenne pepper (1tsp)",
-		"garam masala (1tsp, optional)"  ],  
-	"Other":[ "tomato, crushed (15 oz can)", "rice (2 cups)", "frozen peas (1bag)", "chickpeas (1can)"] 
-	},
-"Equipment": ["big frying pan" ], 
-"Steps": ["chop chicken breast and sprinkle with 2 teaspoons, and sear in pan",
-	"brown onion, garlic (and ginger?)",
-	"stir in curry powder, cumin, turmeric, coriander, cayenne and 1 tablespoon of water, heat together for about 1 minute while stirring ",	
-	"Mix into mixture the tomatoes, yoghurt, salt (2tsp), (cilantro optional)",
-	"return chicken breast to skillet",
-	"pour 1/2 cup of water in mixture, bring to a boil, turn chicken to coat with sauce",
-	"sprinkle garam masala (and 1 tbs cilantro) over the chicken",
-	"simmer until chicken is done (20 minutes for full chicken breast" ], 
-"Notes": ["optionally add some chiles",
-	"maybe add chickpeas also",
-	"2020-04-01 added too much ginger, and didn't have coriander. Was a little too soapy, not enough kick?, add peas? and with coriander should be good. Easy on the ginger next time ",
-"2020-04-11 added chickpeas(awesome!), no ginger, less turmeric. Undersalted. Lemon didn't add much. No cilantro next time? ",
-"left out cilantro and ginger, and seasoned chicken beforehand with curry/cumin/cayenne. This was amazing, I added chickpeas and green peas, and ate it with castiron naan"], 
-"Link":"https://www.allrecipes.com/video/3195/indian-chicken-curry-murgh-kari/ "
+{
+  "Name": "Indian Chicken Curry",
+  "Cooking time": "60",
+  "Servings": "4",
+  "Description": "  ",
+  "Ingredients": {
+    "Produce": [
+      "onion (1x)",
+      "garlic (6cloves)"
+    ],
+    "Dairy": [
+      "yoghurt (1 cup)"
+    ],
+    "Meat": [
+      "chicken boneless (2lb)"
+    ],
+    "Spices": [
+      "curry powder (1.5tbs)",
+      "cumin (1tsp)",
+      "turmeric (.5tsp)",
+      "coriander (1sp)",
+      "cayenne pepper (1tsp)",
+      "garam masala (1tsp",
+      "optional)"
+    ],
+    "Other": [
+      "tomato",
+      "crushed (15 oz can)",
+      "rice (2 cups)",
+      "frozen peas (1bag)",
+      "chickpeas (1can)"
+    ]
+  },
+  "Steps": [
+    "chop chicken breast and sprinkle with 2 teaspoons, and sear in pan",
+    "brown onion, garlic (and ginger?)",
+    "stir in curry powder, cumin, turmeric, coriander, cayenne and 1 tablespoon of water, heat together for about 1 minute while stirring ",
+    "Mix into mixture the tomatoes, yoghurt, salt (2tsp), (cilantro optional)",
+    "return chicken breast to skillet",
+    "pour 1/2 cup of water in mixture, bring to a boil, turn chicken to coat with sauce",
+    "sprinkle garam masala (and 1 tbs cilantro) over the chicken",
+    "simmer until chicken is done (20 minutes for full chicken breast"
+  ],
+  "Notes": [
+    "optionally add some chiles",
+    "maybe add chickpeas also",
+    "2020-04-01 added too much ginger, and didn't have coriander. Was a little too soapy, not enough kick?, add peas? and with coriander should be good. Easy on the ginger next time ",
+    "2020-04-11 added chickpeas(awesome!), no ginger, less turmeric. Undersalted. Lemon didn't add much. No cilantro next time? ",
+    "left out cilantro and ginger, and seasoned chicken beforehand with curry/cumin/cayenne. This was amazing, I added chickpeas and green peas, and ate it with castiron naan"
+  ]
 }
- 

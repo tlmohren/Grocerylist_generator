@@ -1,0 +1,32 @@
+{
+  "Name": "Sausage roll (untried)",
+  "Cooking time": "60",
+  "Servings": "60",
+  "Description": "",
+  "Ingredients": {
+    "Produce": [
+      "onion (1/4)",
+      "Garlic (1cl)"
+    ],
+    "Dairy": [
+      "egg (1)"
+    ],
+    "Meat": [
+      "ground pork (1lb)"
+    ],
+    "Spices": [
+      "coriander (1/4tsp)",
+      "cayenne(1/8tsp)",
+      "nutmeg(1/8tsp)",
+      "thyme",
+      "dried (1/4sp)",
+      "sage 1tsp"
+    ],
+    "Other": [
+      "breadcrums(1tbs)",
+      "frozen puff pastry (1sheet)"
+    ]
+  },
+  "Steps": [],
+  "Notes": []
+}
