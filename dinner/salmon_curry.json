@@ -1,0 +1,31 @@
+{
+  "Name": "Coconut-miso salmon curry",
+  "Cooking time": "1 hr",
+  "Servings": "4",
+  "Description": "from NY times",
+  "Ingredients": {
+    "Produce": [
+      "Onion (1)",
+      "garlic (3cl)",
+      "baby spinach (5oz)",
+      "lime",
+      "basil",
+      "cilantro"
+    ],
+    "Dairy": [],
+    "Meat": [
+      "Salmon (1.5 lb)"
+    ],
+    "Spices": [],
+    "Other": [
+      "White miso (1/4 cup)",
+      "unsweetened coconut milk full fat (1/2)"
+    ]
+  },
+  "Steps": [
+    "In a large pot, heat 2 tablespoons oil over medium. Add onion, ginger and garlic and season with salt and pepper. Cook, stirring occasionally, until softened, about 3 minutes. Add miso and cook, stirring frequently, until miso is lightly caramelized, about 2 minutes.",
+    "Add coconut milk and 3 cups water and bring to a boil over high heat. Cook until liquid is slightly reduced, about 5 minutes. Stir in salmon, reduce the heat to medium-low and simmer gently until just cooked through, about 5 minutes. Turn off heat and stir in spinach and lime juice.",
+    "Divide rice among bowls. Top with salmon curry, basil and cilantro. Serve with lime wedges for squeezing on top."
+  ],
+  "Notes": []
+}
