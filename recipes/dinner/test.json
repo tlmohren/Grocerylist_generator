@@ -1,0 +1,15 @@
+{
+  "Name": "test",
+  "Cooking time": "",
+  "Servings": "",
+  "Description": "",
+  "Ingredients": {
+    "Produce": [],
+    "Dairy": [],
+    "Meat": [],
+    "Spices": [],
+    "Other": []
+  },
+  "Steps": [],
+  "Notes": []
+}

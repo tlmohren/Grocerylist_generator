@@ -1,0 +1,13 @@
+#
+# config.yml
+# 
+log_remote : True
+remote_dir : "D:\\Mijn_documenten\\Dropbox\\J_Cooking"
+week_dishes:  |
+  indian_chicken_curry
+  salmon_curry
+  greek_salad
+  homemade_pasta
+  pizza_homemade
+  avocado_toast
+  mushroom_egg_scramble

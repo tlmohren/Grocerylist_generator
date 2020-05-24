@@ -1,0 +1,27 @@
+{  
+"Produce":[], 
+"Dairy":[ ],
+"Meat":[ ],  
+"Spices":["cumin",
+	"coriander",
+	"curry",
+	"garam masala",
+	"cayenne",
+	"cinnamon",
+	"nutmeg",
+	"vanilla extract",
+	"turmeric" 
+	],  
+"Other":["lasagna sheets",
+	"pasta",
+	"bread flour",
+	"tomato sauce",  
+	"canola oil",
+	"olive oil"
+	"almond meal",
+	"yeast",
+	"rice",
+	"miso"
+	] 
+}
+ 

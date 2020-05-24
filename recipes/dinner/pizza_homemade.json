@@ -1,0 +1,22 @@
+{"Name": "Pizza, frozen dough", 
+"Description": "Dough from Grand central bakery, finished at hoe", 
+"Cooking time": 30, 
+"Servings": 2,  
+"Ingredients": {
+	"Produce":[], 
+	"Dairy":["mozarella" ],
+	"Meat":["pizza meat"],  
+	"Spices":[ ],  
+	"Other":["basil", "pizza sauce"   ]
+	},
+"Equipment": ["Oven" ], 
+"Steps": ["thaw out dough, 3 hours outside fridge or 45 min in warm water",
+	"Turn on oven to 400",
+	"flour table, throw pizza", 
+	"add toppings",
+	"grind some pepper over pizza",
+	"put on sheet in oven for 10 to 12 minutes, have a guard sheet below"], 
+"Notes": ["" ],  
+"Image": "placeholder"
+}
+ 
